@@ -29,7 +29,7 @@ Contract.make {
                "dataType":"application/yang-data+json",
                "cmHandleProperties":{
                   "subSystem":"2",
-                  "targetDnPrefix": "Location=Europe",
+                  "location": "Location=Europe",
                   "targetNode": "MyElement=L2022cloudMan",
                   "neType": "neType"
                }
@@ -45,7 +45,7 @@ Contract.make {
                 {
                   "id": "L2022cloudMan",
                   "attributes": {
-                    "dnPrefix": "Location=Europe",
+                    "locationPrefix": "Location=Europe",
                     "userLabel": "null",
                     "locationName": "null",
                     "myElementType": "neType",
